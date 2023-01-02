@@ -195,6 +195,12 @@ app.post('/rome' , function(req,res){
 app.post('/annapurna' , function(req,res){
   res.render('annapurna',{message:" "});
 });
+app.post('/inca' , function(req,res){
+  res.render('inca',{message:" "});
+});
+app.post('/santorini' , function(req,res){
+  res.render('santorini',{message:" "});
+});
 function addtowanttogo(dist){
    
 }
