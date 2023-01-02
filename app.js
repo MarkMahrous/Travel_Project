@@ -182,6 +182,9 @@ app.post('/registration' , function(req,res){
     
 }
 });
+app.post('/wanttogo' , function(req,res){
+  res.render('wanttogo');
+});
 app.post('/bali' , function(req,res){
   res.render('bali',{message:" "});
 });
